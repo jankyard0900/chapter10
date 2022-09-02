@@ -69,3 +69,20 @@ footer{
   background-color: #aaaaaa;
 }
 
+@media screen and (max-width: 768px){
+  main{
+    width: 100%;
+    display: inline-block;
+
+  }
+
+  .step-box{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%
+  }
+
+  .step-box:last-child{
+    margin-bottom: 0;
+  }
+}
